@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Deskripsi"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diterima"
+        android:layout_marginTop="50dp"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        />
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/amazon"
+        android:id="@+id/gambar"/>
+    <TextView
+        android:id="@+id/ket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jjj"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/status"
+        android:layout_marginTop="20dp"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:text="kkk"
+        android:background="@drawable/bg_status"
+        android:textSize="18dp"
+        android:paddingTop="2dp"
+        android:textColor="@color/white"
+        android:paddingStart="10dp"/>
+
+
+</LinearLayout>

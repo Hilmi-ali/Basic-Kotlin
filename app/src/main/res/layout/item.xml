@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/recycler"
+    android:layout_gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="360dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:gravity="center_horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/gambar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/amazon"/>
+        <TextView
+            android:id="@+id/teks"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="130dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KNsjanscnakcnmasckmc"/>
+        <TextView
+            android:id="@+id/status"
+            android:paddingTop="2dp"
+            android:paddingStart="4dp"
+            android:layout_marginStart="305dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_status"
+            android:textColor="@color/white"
+            android:layout_width="50dp"
+            android:textSize="12dp"
+            android:layout_height="20dp"
+            android:text="Selesai"/>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
